@@ -1,0 +1,11 @@
+name: Uranai
+version: ${project.version}
+main: xyz.namekun.uranai.Uranai
+api-version: 1.16
+authors: [ NameKun ]
+description: Judge your today's luck
+
+commands:
+  uranai:
+    usage: /uranai
+    description: Use it to judge your today's luck

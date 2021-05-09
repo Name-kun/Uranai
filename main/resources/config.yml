@@ -1,0 +1,25 @@
+#The element below should be formatted like this: "hh:mm:ss"
+time: "06:00:00"
+
+#The messages which are displayed to the players and the console (and the setting of the prefix)
+prefix: "&7[&3占い&7]"
+
+daikichi: "&6&l大吉"
+kichi: "&6吉"
+chukichi: "&e中吉"
+shokichi: "&a小吉"
+suekichi: "&2末吉"
+kyo: "&7凶"
+daikyo: "&8大凶"
+
+message:
+  noFile: "&cファイルが存在しません。"
+  resetList: "&aプレイヤーリストを削除しました。"
+  alreadySent: "&e本日の運勢は既に占っています！\n占いは朝６時更新です。"
+  luck: "&6%player%&rさんの運勢&a: %luck%"
+  obtainBonus: "&a%luck%&aでした。ボーナスを獲得しました！"
+  noPerm: "&c権限がありません。"
+  help:
+    - "&a/uranai reload &7| 構成を再読込します。"
+    - "&a/uranai delete &7| プレイヤーリストを削除します。"
+  reload: "&a再読込が完了しました。"
