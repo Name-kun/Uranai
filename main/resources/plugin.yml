@@ -9,3 +9,14 @@ commands:
   uranai:
     usage: /uranai
     description: Use it to judge your today's luck
+  playtime:
+    usage: /playtime [player]
+    description: watch how long the player plays in the server
+  getunko:
+    usage: /getunko
+    description: get a unko
+    permission: getunko
+  getuuid:
+    usage: /getuuid
+  sendtext:
+    usage: /sendtext

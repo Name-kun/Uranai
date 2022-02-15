@@ -20,6 +20,20 @@ message:
   obtainBonus: "&a%luck%&aでした。ボーナスを獲得しました！"
   noPerm: "&c権限がありません。"
   help:
+    - "&a/uranai list &7| 占いリーダーボードを表示します。"
+    - "&a/uranai reset <player> &7| 指定したプレイヤーのクールダウンを解除します。"
     - "&a/uranai reload &7| 構成を再読込します。"
     - "&a/uranai delete &7| プレイヤーリストを削除します。"
   reload: "&a再読込が完了しました。"
+
+execution:
+  daikichi:
+    - money give %player% 3000
+    - sendtext %player% 大吉おめでとうございます。3000円のプレゼントです。
+  kichi:
+  chukichi:
+  shokichi:
+  suekichi:
+  kyo:
+  daikyo:
+    - console say おーん...
